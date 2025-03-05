@@ -49,8 +49,8 @@ namespace TranslatorApp
         {
             ComboBoxFrom.Items.AddRange(new string[] { "en","ru", "es", "fr", "de", "zh" });
             ComboBoxTo.Items.AddRange(new string[] { "en", "ru", "es", "fr", "de", "zh" });
-            ComboBoxFrom.SelectedIndex = 0;
-            ComboBoxTo.SelectedIndex = 1;
+            ComboBoxFrom.SelectedIndex = 1;
+            ComboBoxTo.SelectedIndex = 0;
         }
     }
 }
